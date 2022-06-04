@@ -1,0 +1,15 @@
+/* Esto es un fichero de estilo CSS */
+
+h1{
+  color:green;
+}
+p{
+  /* color:#1CDB18 */
+  color:#F7FE00;
+}
+li{
+  /* Datos que estan abajo de codigo # */
+  /* color:rgb(1, 0, 254); */
+  /* rgba agrega transparencia en el ultimo valor de 0 a 1*/
+  color: rgba(1, 0, 254, 1);
+}
