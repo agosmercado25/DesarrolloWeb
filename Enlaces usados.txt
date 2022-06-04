@@ -1,0 +1,9 @@
+HTML
+https://developer.mozilla.org/es/docs/Web/HTML/Element/input
+
+CSS
+https://htmlcolorcodes.com/es/selector-de-color/
+https://www.w3schools.com/colors/colors_picker.asp
+
+
+
