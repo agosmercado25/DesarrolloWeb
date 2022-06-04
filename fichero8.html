@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formularios</title>
+  </head>
+  <body>
+    <!-- Despues de que termine de ejecutar va a ir a la ruta que dice en action -->
+    <form class="" action="resultado.html" method="post">
+      <h3>Introduce tu nombre y apellido</h3>
+      <!-- placeholder pone un valor en el input -->
+      <input type="text" name="nombre" placeholder="Nombre">
+      <input type="text" name="apellido" placeholder="Apellido">
+      <!-- type subdit es un boton -->
+      <input type="submit" name="enviar" value="Enviar">
+
+      <h3>Introduce tu email y password</h3>
+      <!-- el type email corrobora que lo que se ingrese sea un mail-->
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <!-- type subdit es un boton -->
+      <input type="submit" name="enviar" value="Enviar">
+    </form>
+  </body>
+</html>

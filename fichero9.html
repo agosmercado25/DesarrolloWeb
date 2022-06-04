@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Button radio</title>
+  </head>
+  <body>
+    <!-- Button radio te deja elegir 1 entre varias opciones -->
+    <!-- Metodo get porque vamos a guardar y lo traer en la url nueva -->
+    <form class="" action="resultado.html" method="get">
+      <h3>Que color te gusta</h3>
+      Verde <input type="radio" name="color" value="verde">
+      Rojo <input type="radio" name="color" value="rojo">
+      Azul <input type="radio" name="color" value="azul">
+      <!-- Trae la opcion seleccionada en la nueva direccion url
+    file:///D:/Agos/Cursos/Desarrollo%20Web%20-%20HTML,CSS,JavaScript,
+    JQuery,Python,Django/resultado.html?color=verde&enviar=Enviar-->
+      <input type="submit" name="enviar" value="Enviar">
+
+    </form>
+  </body>
+</html>
