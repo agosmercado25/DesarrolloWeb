@@ -1,7 +1,9 @@
 HTML
+https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML
 https://developer.mozilla.org/es/docs/Web/HTML/Element/input
 
 CSS
+https://developer.mozilla.org/es/docs/Learn/CSS/First_steps
 https://htmlcolorcodes.com/es/selector-de-color/
 https://www.w3schools.com/colors/colors_picker.asp
 https://fonts.google.com/
@@ -9,5 +11,5 @@ https://fonts.google.com/
 Bootstrap
 https://getbootstrap.com/
 (Puede descargarse o puede usarse de manera remota con los <link ....>
-
+https://getbootstrap.com/docs/5.2/components/buttons/
 
