@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Botones</title>
+    <!-- CSS only (Bootstrap) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper (Bootstrap) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <h1>Botones</h1>
+    <p>Primeros botones</p>
+    <button type="button" class="btn btn-primary">Azul</button>
+    <button type="button" class="btn btn-secondary">Gris</button>
+    <button type="button" class="btn btn-success">Verde</button>
+    <button type="button" class="btn btn-danger">Peligro</button>
+    <button type="button" class="btn btn-warning">Aviso</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-light">Claro</button>
+    <button type="button" class="btn btn-dark">Oscuro</button>
+
+    <button type="button" class="btn btn-link">Link</button>
+
+    <p>Botones 2</p>
+
+    <a class="btn btn-primary" href="#" role="button">Link</a>
+    <button class="btn btn-primary" type="submit">Button</button>
+    <input class="btn btn-primary" type="button" value="Input">
+    <input class="btn btn-primary" type="submit" value="Submit">
+    <input class="btn btn-primary" type="reset" value="Reset">
+
+    <p>Botones 3</p>
+    <button type="button" class="btn btn-outline-primary">Primary</button>
+    <button type="button" class="btn btn-outline-secondary">Secondary</button>
+    <button type="button" class="btn btn-outline-success">Success</button>
+    <button type="button" class="btn btn-outline-danger">Danger</button>
+    <button type="button" class="btn btn-outline-warning">Warning</button>
+    <button type="button" class="btn btn-outline-info">Info</button>
+    <button type="button" class="btn btn-outline-light">Light</button>
+    <button type="button" class="btn btn-outline-dark">Dark</button>
+
+    <p>Botones 4</p>
+    <button type="button" class="btn btn-primary btn-lg">Large button</button>
+    <button type="button" class="btn btn-secondary btn-lg">Large button</button>
+    <button type="button" class="btn btn-primary btn-sm">Small button</button>
+    <button type="button" class="btn btn-secondary btn-sm">Small button</button>
+    <button type="button" class="btn btn-primary"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+        Custom button
+    </button>
+
+    <p>Botones 5</p>
+    <button type="button" class="btn btn-primary" disabled>Primary button</button>
+    <button type="button" class="btn btn-secondary" disabled>Button</button>
+    <button type="button" class="btn btn-outline-primary" disabled>Primary button</button>
+    <button type="button" class="btn btn-outline-secondary" disabled>Button</button>
+    <a class="btn btn-primary disabled" role="button" aria-disabled="true">Primary link</a>
+    <a class="btn btn-secondary disabled" role="button" aria-disabled="true">Link</a>
+
+    <p>Botones 6</p>
+    <a href="#" class="btn btn-primary disabled" tabindex="-1" role="button" aria-disabled="true">Primary link</a>
+    <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">Link</a>
+
+    <p>Botones 7</p>
+    <div class="d-grid gap-2">
+      <button class="btn btn-primary" type="button">Button</button>
+      <button class="btn btn-primary" type="button">Button</button>
+    </div>
+    <div class="d-grid gap-2 d-md-block">
+      <button class="btn btn-primary" type="button">Button</button>
+      <button class="btn btn-primary" type="button">Button</button>
+    </div>
+    <div class="d-grid gap-2 col-4 mx-auto">
+      <!-- el col-6 es para la cantidad de columnas que puede ocupar
+    Ej: <div class="d-grid gap-2 col-4 mx-auto">
+          el gap-2 es la distancia entre los dos botones
+    Ej: <div class="d-grid gap-4 col-6 mx-auto">  -->
+      <button class="btn btn-primary" type="button">Button1</button>
+      <button class="btn btn-primary" type="button">Button2</button>
+    </div>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+      <button class="btn btn-primary me-md-2" type="button">Button</button>
+      <button class="btn btn-primary" type="button">Button</button>
+    </div>
+
+    <p>Botones 8</p>
+    <button type="button" class="btn btn-primary" data-bs-toggle="button">Toggle button</button>
+    <button type="button" class="btn btn-primary active" data-bs-toggle="button" aria-pressed="true">Active toggle button</button>
+    <button type="button" class="btn btn-primary" disabled data-bs-toggle="button">Disabled toggle button</button>
+    <a href="#" class="btn btn-primary" role="button" data-bs-toggle="button">Toggle link</a>
+    <a href="#" class="btn btn-primary active" role="button" data-bs-toggle="button" aria-pressed="true">Active toggle link</a>
+    <a class="btn btn-primary disabled" aria-disabled="true" role="button" data-bs-toggle="button">Disabled toggle link</a>
+
+  </body>
+</html>
