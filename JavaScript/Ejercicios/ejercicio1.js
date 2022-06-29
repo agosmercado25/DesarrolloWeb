@@ -25,7 +25,7 @@ else if (operacion == '/') {
   texto = "La operación es " + operacion + " para los números " + numero1 + " y " + numero2 + " y el resultado es " + resultado;
 }
 else {
-  texto = "La operación " + operacion + " no es correcta";
+  texto = "La operación " + operacion + " no está permitida";
 }
 
 alert(texto);
