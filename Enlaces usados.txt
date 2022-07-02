@@ -13,3 +13,5 @@ https://getbootstrap.com/
 (Puede descargarse o puede usarse de manera remota con los <link ....>
 https://getbootstrap.com/docs/5.2/components/buttons/
 
+DOM
+https://developer.mozilla.org/es/docs/Web/API/Element/click_event
