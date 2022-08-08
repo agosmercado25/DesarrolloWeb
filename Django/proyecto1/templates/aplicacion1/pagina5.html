@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% extends "aplicacion1/plantilla.html" %}
+{% block cabecera %}
+  <title>Pagina 5</title>
+{% endblock %}
+{% block bloque1 %}
+  <h1>Estamos en la pagina5</h1>
+  <a href="{% url 'aplicacion1:pagina4' %}">Ir a la pagina 4</a>
+{% endblock %}
+<!--
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pagina 5</title>
+  </head>
+  <body>
+    <h1>Estamos en la pagina5</h1>
+    <a href="{% url 'aplicacion1:pagina4' %}">Ir a la pagina 4</a>
+  </body>
+</html>
+-->

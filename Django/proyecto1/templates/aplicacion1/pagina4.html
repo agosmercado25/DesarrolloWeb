@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!-- La plantilla4 va a utilizar la plantilla.html
+Sustituye los valores de los bloques de la platilla original por los valores
+de la platilla4 -->
+{% extends "aplicacion1/plantilla.html" %}
+{% load misfiltros %}
+{% block cabecera %}
+  <title>Pagina 4</title>
+{% endblock %}
+{% block bloque1 %}
+  <h1>Estamos en la pagina4</h1>
+  <a href="{% url 'aplicacion1:pagina5' %}">Ir a la pagina 5</a>
+  <!--<h3>{{ texto|upper }}</h3>-->
+  <h3>{{ texto|recortar:'Hola' }}</h3>
+  <h3>{{ numero|add:'25' }}</h3>
+  <h3>{{ hora|default:"No hay datos para la hora" }}</h3>
+{% endblock %}
+
+<!--
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pagina 4</title>
+  </head>
+  <body>
+    <h1>Estamos en la pagina4</h1>
+    <a href="{% url 'aplicacion1:pagina5' %}">Ir a la pagina 5</a>
+  </body>
+</html>
+-->
